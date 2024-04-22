@@ -7,11 +7,12 @@
     <title>Mocha Magic</title>
 </head>
 <body>
-    <%- include('./partials/nav') %>
+<%- include('./partials/nav') %>
+    <main id="home-main">
         <h1>Mocha Magic</h1>
-        <div id="hero">
+        <div id="hero">  
+            <img src="https://images.pexels.com/photos/2564081/pexels-photo-2564081.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
             <h3>Experience the Magic of Coffee</h3>
-            <img src="">
             <p>At Mocha Magic, we believe in the power of coffee to bring people together, inspire creativity, and spark joy. Step into our welcoming café and immerse yourself in a world of rich aromas, flavorful blends, and heartfelt connections.</p>
         </div>
         <div id="offerings">
@@ -24,6 +25,7 @@
             <img src="">
             <p>Learn about our journey from a small coffee shop to a beloved community hub, guided by our founders' passion for exceptional coffee and genuine hospitality. Explore our rich heritage, commitment to quality, and dedication to serving you the perfect cup, every time.</p>
         </div>
+    </main>
     <%- include('./partials/footer.ejs', {data}); %>
 </body>
 </html>
