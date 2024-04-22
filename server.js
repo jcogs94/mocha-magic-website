@@ -28,6 +28,10 @@ app.get('/links', (req, res) => {
     res.render('links.ejs', {data: data.companyData})
 });
 
+app.get('/menu', (req, res) => {
+    res.render('menu.ejs', {data: data.companyData})
+});
+
 
 app.listen(3000, () => {
     console.log('We are listening to port 3000');
