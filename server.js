@@ -1,37 +1,34 @@
 const express = require('express');
 const app = express();
 app.use(express.static('public')); 
-
-    
-
-
-    app.get('/home', (req, res) => {
-        res.render('home.ejs')
-    });
+const data = require('./assets/data');
 
 
-    app.get('/history', (req, res) => {
-        res.render('history.ejs')
-    });
+app.get('/home', (req, res) => {
+    res.render('home.ejs', {data: data.companyData})
+});
 
 
-    app.get('/staff', (req, res) => {
-        res.render('staff.ejs')
-    });
+app.get('/history', (req, res) => {
+    res.render('history.ejs', {data: data.companyData})
+});
 
 
-    app.get('/contactus', (req, res) => {
-        res.render('contactus.ejs')
-    });
+app.get('/staff', (req, res) => {
+    res.render('staff.ejs', {data: data.companyData})
+});
 
 
-    app.get('/links', (req, res) => {
-        res.render('links.ejs')
-    });
+app.get('/contactus', (req, res) => {
+    res.render('contact-us.ejs', {data: data.companyData})
+});
 
 
+app.get('/links', (req, res) => {
+    res.render('links.ejs', {data: data.companyData})
+});
 
-    
-    app.listen(3000, () => {
-        console.log('We are listening to port 3000');
-    })
+
+app.listen(3000, () => {
+    console.log('We are listening to port 3000');
+});

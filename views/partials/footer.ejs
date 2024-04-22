@@ -1,0 +1,16 @@
+<footer>
+    <div class="location">
+        <ul class="address-list">
+            <li class="address"><%= data.address1 %></li>
+            <li class="address"><%= data.address2 %></li>
+            <li class="address"><%= data.phoneNum %></li>
+        </ul>
+    </div>
+    <div class="hours">
+        <ul class="hours-list">
+            <% data.hours.forEach( (dayGroup) => { %>
+                <li class="hours-day-group"><%= dayGroup %></li>
+            <% }); %>
+        </ul>
+    </div>
+</footer>
