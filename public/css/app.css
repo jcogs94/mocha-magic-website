@@ -26,7 +26,6 @@ main {
     margin: 15px 5px 50px;
     display: flex;
     flex-direction: column;
-    width: calc(100% - 20px);
 }
 
 main > h1 {
