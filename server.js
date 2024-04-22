@@ -5,7 +5,7 @@ app.use(express.static('public'));
     
 
 
-    app.get('/home', (req, res) => {
+    app.get('/', (req, res) => {
         res.render('home.ejs')
     });
 
@@ -21,7 +21,7 @@ app.use(express.static('public'));
 
 
     app.get('/contactus', (req, res) => {
-        res.render('contactus.ejs')
+        res.render('contact-us.ejs')
     });
 
 
@@ -31,7 +31,7 @@ app.use(express.static('public'));
 
 
 
-    
+
     app.listen(3000, () => {
         console.log('We are listening to port 3000');
     })
