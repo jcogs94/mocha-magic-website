@@ -148,12 +148,16 @@ footer {
     height: 100px;
 }
 img{
-    max-width: 400px;
+    max-width: 650px;
     height: auto;
 }
+#main-img{
+    max-width: 400px;
+}
 #home-main{
+    max-width: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 20px;
 }
-
