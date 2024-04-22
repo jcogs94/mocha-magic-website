@@ -9,6 +9,23 @@ module.exports = {
             'Saturday: 5:00AM - 9:00PM',
             'Sunday: 6:00AM - 8:00PM'
         ],
+        links: [
+            {
+                name: 'Instagram',
+                icon: 'https://cdn-icons-png.flaticon.com/512/1384/1384031.png',
+                link: 'https://www.instagram.com/'
+            },
+            {
+                name: 'Facebook',
+                icon: 'https://cdn3.iconfinder.com/data/icons/picons-social/57/06-facebook-512.png',
+                link: 'https://www.facebook.com/'
+            },
+            {
+                name: 'Twitter',
+                icon: 'https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/twitter-icon.png',
+                link: 'https://www.twitter.com/'
+            },
+        ],
         menu: [
             {
                 name: "Cappuccino",

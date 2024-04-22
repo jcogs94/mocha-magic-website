@@ -37,6 +37,9 @@ app.get('/staff/:id', (req, res) => {
 app.get('/contactus', (req, res) => {
     res.render('contact-us.ejs', {data: data.companyData})
 });
+app.get('/history', (req, res) => {
+    res.render('history.ejs', {data: data.companyData})
+});
 
 
 app.get('/links', (req, res) => {

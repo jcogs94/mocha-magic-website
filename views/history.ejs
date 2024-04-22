@@ -7,10 +7,9 @@
 </head>
 <body>
     <%- include('./partials/nav') %>
-        <h1>Check Out Our Links!</h1>
-        <% data.links.forEach(element => { %>
-            <a href="<%= element.link %>"><%= element.name %></a>
-        <% }) %>
+    <main>
+        <h1>Mocha Magic History</h1>
+    </main>
     <%- include('./partials/footer.ejs', {data}); %>
 </body>
 </html>
