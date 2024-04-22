@@ -95,4 +95,32 @@ footer {
     display: grid;
     justify-items: center;
 }
+#contact-card{
+    margin: 8px;
+    background-color: grey;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 300px;
+    width: 50%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+#submit-button{
+    height: 40px;
+    width: 240px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+    justify-self: center;
+}
+#message{
+    
+    width: 80%;
+    height: 100px;
+}
+
 

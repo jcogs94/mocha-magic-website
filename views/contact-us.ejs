@@ -7,9 +7,14 @@
 </head>
 <body>
     <%- include('./partials/nav') %>
-    <main>
         <h1>Contact Us</h1>
-    </main>
+        <div id="contact-card">
+                <h3>Your email: </h3>
+                <input type="email" id="email">
+                <h3>Message: </h3>
+                <input type="text" id="message">
+                <button id="submit-button">Submit</button>
+        </div>
     <%- include('./partials/footer.ejs', {data}); %>
 </body>
 </html>
