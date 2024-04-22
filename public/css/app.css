@@ -28,6 +28,12 @@ main {
     flex-direction: column;
 }
 
+.menu-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 main > h1 {
     align-self: center;
 }
