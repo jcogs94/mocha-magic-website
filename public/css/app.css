@@ -16,16 +16,17 @@ body {
     justify-content: center;
     padding: 10px 0;
 }
-a{
+#navBar > a {
     margin: 0px 10px;
     font-size: 18px;
     text-decoration: none;
 }
 
 main {
-    margin: 15px 0 50px;
+    margin: 15px 5px 50px;
     display: flex;
     flex-direction: column;
+    width: calc(100% - 20px);
 }
 
 main > h1 {
@@ -45,6 +46,12 @@ main > h1 {
     align-items: flex-start;
     list-style-type: none;
     padding: 0;
+}
+
+.employee-info > a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 footer {

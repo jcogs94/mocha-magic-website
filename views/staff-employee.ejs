@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mocha Magic</title>
+</head>
+<body>
+    <%- include('./partials/nav') %>
+    <main>
+        <h1><%= employee.name %></h1>
+        <ul class="employee-list">
+            <li class="employee-info"><b><%= employee.name %></b> (<%= employee.age %>)</li>
+            <li class="employee-info"><b>Phone:</b> <%= employee.cell %></li>
+            <li class="employee-info"><b>Email:</b> <%= employee.email %></li>
+            <li class="employee-info">With our team for <%= employee.timeWithCompany %></li>
+        </ul>
+    </main>
+    <%- include('./partials/footer.ejs', {data}); %>
+</body>
+</html>

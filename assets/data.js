@@ -85,6 +85,7 @@ module.exports = {
         ],
         employees: [
             {
+                id: 1,
                 name: 'Rebecca Miller',
                 age: '52',
                 position: 'Owner',
@@ -93,6 +94,7 @@ module.exports = {
                 email: 'rebecca.miller@mochamagiccafe.com'
             },
             {
+                id: 2,
                 name: 'David Wilson',
                 age: '56',
                 position: 'General Manager',
@@ -101,6 +103,7 @@ module.exports = {
                 email: 'david.wilson@mochamagiccafe.com'
             },
             {
+                id: 3,
                 name: 'Sarah Jones',
                 age: '28',
                 position: 'Shift Lead',
@@ -109,6 +112,7 @@ module.exports = {
                 email: 'sarah.jones@mochamagiccafe.com'
             },
             {
+                id: 4,
                 name: 'Daniel Smith',
                 age: '34',
                 position: 'Shift Lead',
@@ -117,6 +121,7 @@ module.exports = {
                 email: 'daniel.smith@mochamagiccafe.com'
             },
             {
+                id: 5,
                 name: 'Emily Chang',
                 age: '30',
                 position: 'Shift Lead',
@@ -125,6 +130,7 @@ module.exports = {
                 email: 'emily.chang@mochamagiccafe.com'
             },
             {
+                id: 6,
                 name: 'Miguel Rodriguez',
                 age: '24',
                 position: 'Barista',
@@ -133,6 +139,7 @@ module.exports = {
                 email: 'miguel.rodriguez@mochamagiccafe.com'
             },
             {
+                id: 7,
                 name: 'Olivia Patel',
                 age: '26',
                 position: 'Barista',
@@ -141,6 +148,7 @@ module.exports = {
                 email: 'olivia.patel@mochamagiccafe.com'
             },
             {
+                id: 8,
                 name: 'Liam Thompson',
                 age: 'Barista',
                 position: '23',
@@ -149,6 +157,7 @@ module.exports = {
                 email: 'liam.thompson@mochamagiccafe.com'
             },
             {
+                id: 9,
                 name: 'Sophia Nguyen',
                 age: '27',
                 position: 'Barista',
@@ -157,6 +166,7 @@ module.exports = {
                 email: 'sophia.nguyen@mochamagiccafe.com'
             },
             {
+                id: 10,
                 name: 'Ethan Brown',
                 age: '25',
                 position: 'Barista',
@@ -165,6 +175,7 @@ module.exports = {
                 email: 'ethan.brown@mochamagiccafe.com'
             },
             {
+                id: 11,
                 name: 'Isabella Garcia',
                 age: '29',
                 position: 'Barista',
@@ -173,6 +184,7 @@ module.exports = {
                 email: 'isabella.garcia@mochamagiccafe.com'
             },
             {
+                id: 12,
                 name: 'Jackson Lee',
                 age: '31',
                 position: 'Barista',

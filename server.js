@@ -14,6 +14,26 @@ app.get('/staff', (req, res) => {
 });
 
 
+app.get('/staff/:id', (req, res) => {
+    let employee = {};
+    
+    console.dir(data)
+    
+    for (let i = 0; i < data.companyData.employees.length; i++) {
+        console.log('i:', i, typeof(i));
+        console.log('req.params.id:', req.params.id, typeof(req.params.id));
+        if (data.companyData.employees[i].id === parseInt(req.params.id)) {
+            employee = data.companyData.employees[i];
+        }
+    }
+
+    res.render('staff-employee.ejs', {
+        data: data.companyData,
+        employee: employee
+    });
+});
+
+
 app.get('/contactus', (req, res) => {
     res.render('contact-us.ejs', {data: data.companyData})
 });
