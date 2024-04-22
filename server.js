@@ -4,7 +4,7 @@ app.use(express.static('public'));
 const data = require('./assets/data');
 
 
-app.get('/home', (req, res) => {
+app.get('/', (req, res) => {
     res.render('home.ejs', {data: data.companyData})
 });
 
