@@ -71,3 +71,28 @@ footer {
 .address, .hours-day-group {
     margin: 5px auto;
 }
+
+#menu-item{
+    margin: 8px;
+    background-color: grey;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 125px;
+    width: 425px;
+    display: grid;
+    justify-items: center;
+}
+
+#item-card{
+    margin: 8px;
+    background-color: grey;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 300px;
+    width: 425px;
+    display: grid;
+    justify-items: center;
+}
+
