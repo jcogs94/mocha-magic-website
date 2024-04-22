@@ -9,7 +9,7 @@
     <%- include('./partials/nav') %>
     <h1>Menu</h1>
     <% data.menu.forEach(element => { %>
-        <a href="#" onclick="goToItem(`<%= element.name %>`)" id="<%= element.name %>">
+        <a href="#" onclick="goToItem(`<%= element.name %>`)" class="menu-items" id="<%= element.name %>">
         <div id="menu-item" >
             <h1><%= element.name %></h1>
             <p>Price: $<%= element.price %></p>

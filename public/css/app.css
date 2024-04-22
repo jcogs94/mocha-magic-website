@@ -33,6 +33,10 @@ main > h1 {
     align-self: center;
 }
 
+.menu-items {
+    text-decoration: none;
+}
+
 .position-group {
     display: flex;
     flex-direction: column;
