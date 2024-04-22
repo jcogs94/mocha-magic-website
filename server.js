@@ -9,11 +9,6 @@ app.get('/', (req, res) => {
 });
 
 
-app.get('/history', (req, res) => {
-    res.render('history.ejs', {data: data.companyData})
-});
-
-
 app.get('/staff', (req, res) => {
     res.render('staff.ejs', {data: data.companyData})
 });

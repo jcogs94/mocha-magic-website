@@ -127,7 +127,7 @@ module.exports = {
             {
                 name: 'Miguel Rodriguez',
                 age: '24',
-                position: 'Coffee Server',
+                position: 'Barista',
                 timeWithCompany: '1 year',
                 cell: '(555) 234-5678',
                 email: 'miguel.rodriguez@mochamagiccafe.com'
@@ -135,14 +135,14 @@ module.exports = {
             {
                 name: 'Olivia Patel',
                 age: '26',
-                position: 'Coffee Server',
+                position: 'Barista',
                 timeWithCompany: '2 years',
                 cell: '(555) 876-5432',
                 email: 'olivia.patel@mochamagiccafe.com'
             },
             {
                 name: 'Liam Thompson',
-                age: 'Coffee Server',
+                age: 'Barista',
                 position: '23',
                 timeWithCompany: '6 months',
                 cell: '(555) 345-6789',
@@ -151,7 +151,7 @@ module.exports = {
             {
                 name: 'Sophia Nguyen',
                 age: '27',
-                position: 'Coffee Server',
+                position: 'Barista',
                 timeWithCompany: '2 years',
                 cell: '(555) 789-0123',
                 email: 'sophia.nguyen@mochamagiccafe.com'
@@ -159,7 +159,7 @@ module.exports = {
             {
                 name: 'Ethan Brown',
                 age: '25',
-                position: 'Coffee Server',
+                position: 'Barista',
                 timeWithCompany: '1 year',
                 cell: '(555) 901-2345',
                 email: 'ethan.brown@mochamagiccafe.com'
@@ -167,7 +167,7 @@ module.exports = {
             {
                 name: 'Isabella Garcia',
                 age: '29',
-                position: 'Coffee Server',
+                position: 'Barista',
                 timeWithCompany: '3 years',
                 cell: '(555) 432-1098',
                 email: 'isabella.garcia@mochamagiccafe.com'
@@ -175,7 +175,7 @@ module.exports = {
             {
                 name: 'Jackson Lee',
                 age: '31',
-                position: 'Coffee Server',
+                position: 'Barista',
                 timeWithCompany: '4 years',
                 cell: '(555) 210-9876',
                 email: 'jackson.lee@mochamagiccafe.com'

@@ -1,0 +1,8 @@
+<% teamMembers.forEach( (employee) => { %>
+    <ul class="employee-list">
+        <li class="employee-info"><b><%= employee.name %></b> (<%= employee.age %>)</li>
+        <li class="employee-info"><b>Phone:</b> <%= employee.cell %></li>
+        <li class="employee-info"><b>Email:</b> <%= employee.email %></li>
+        <li class="employee-info">With our team for <%= employee.timeWithCompany %></li>
+    </ul>
+<% }); %>

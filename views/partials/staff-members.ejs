@@ -1,0 +1,20 @@
+<div class="position-group">
+    <% let teamMembers = data.employees.filter( (employee) => employee.position === 'Owner'); %>
+    <h2 class="employee-title">Owner</h2>
+    <%- include('./staff-individual.ejs', {teamMembers}); %>
+</div>
+<div class="position-group">
+    <% teamMembers = data.employees.filter( (employee) => employee.position === 'General Manager'); %>
+    <h2 class="employee-title">General Manager</h2>
+    <%- include('./staff-individual.ejs', {teamMembers}); %>
+</div>
+<div class="position-group">
+    <% teamMembers = data.employees.filter( (employee) => employee.position === 'Shift Lead'); %>
+    <h2 class="employee-title">Shift Leaders</h2>
+    <%- include('./staff-individual.ejs', {teamMembers}); %>
+</div>
+<div class="position-group">
+    <% teamMembers = data.employees.filter( (employee) => employee.position === 'Barista'); %>
+    <h2 class="employee-title">Baristas</h2>
+    <%- include('./staff-individual.ejs', {teamMembers}); %>
+</div>
