@@ -8,6 +8,22 @@
 <body>
     <%- include('./partials/nav') %>
     <h1>Menu</h1>
+    <% data.menu.forEach(element => { %>
+        <a href="#" onclick="goToItem(`<%= element.name %>`)" id="<%= element.name %>">
+        <div id="menu-item" >
+            <h1><%= element.name %></h1>
+            <p>Price: $<%= element.price %></p>
+            <p><%= element.description %></p>
+            <p>Details: <%= element.category %></p>            
+        </div>
+        </a>
+    <% }) %>
     <%- include('./partials/footer.ejs', {data}); %>
+    <script>
+        const goToItem = (itemName) => {
+            const itemElement = document.getElementById(itemName);
+            itemElement.href = `/menu/${itemName}`;
+        }
+    </script>
 </body>
 </html>
